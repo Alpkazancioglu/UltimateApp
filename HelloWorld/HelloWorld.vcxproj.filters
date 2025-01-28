@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{55b41899-6512-402f-8e53-cf05eb1e89af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{de8f6315-f832-4b0a-b409-f90d4bdab94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguiHeaders">
+      <UniqueIdentifier>{8b5fa8b9-4d25-4df0-9bac-50366c460333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguiSources">
+      <UniqueIdentifier>{4d5000a1-c13e-4b4c-b975-1e9b69a4e1d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui.cpp">
+      <Filter>imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_demo.cpp">
+      <Filter>imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_draw.cpp">
+      <Filter>imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_tables.cpp">
+      <Filter>imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_widgets.cpp">
+      <Filter>imguiSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\imgui\rlImGui.cpp">
+      <Filter>imguiSources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Translator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_truetype.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imconfig.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imgui.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imgui_internal.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_rectpack.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_textedit.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\rlImGui-main\rlImGui-main\rlImGui.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\rlImGui-main\rlImGui-main\rlImGuiColors.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\rlImGui-main\rlImGui-main\imgui_impl_raylib.h">
+      <Filter>imguiHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulsTracker.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WordDataBase.json">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="EldenRingBosses.json">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

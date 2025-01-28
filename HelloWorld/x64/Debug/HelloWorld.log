@@ -1,0 +1,3 @@
+﻿  FileHandler.cpp
+C:\Users\alpka\OneDrive\Desktop\main\VsProjects\HelloWorld\HelloWorld\FileHandler.cpp(90,1): warning C4715: 'SaveFile::PrintFile': not all control paths return a value
+  HelloWorld.vcxproj -> C:\Users\alpka\OneDrive\Desktop\main\VsProjects\HelloWorld\x64\Debug\HelloWorld.exe
